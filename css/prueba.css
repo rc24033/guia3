@@ -1,0 +1,46 @@
+*{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(130, 131, 131);
+}
+h1{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+    text-align: justify;
+}
+
+div{
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+@media screen and (max-width:480px) {
+    html{
+        font-size: 14px;
+    }
+    body{
+        background-color: #03A9F4;
+    }
+    div{
+        width: 95%;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+    html{
+        font-size: 14px;
+    }
+    body{
+        background-color: #FF9800;
+    }
+    div{
+        width: 95%;
+    }
+}
+@media screen and (min-width:769px) {
+    
+}
